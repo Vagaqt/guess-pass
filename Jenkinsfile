@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('error') {
+    stage('docker build') {
       steps {
         sh 'docker build .'
       }
