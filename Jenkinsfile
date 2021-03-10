@@ -6,9 +6,9 @@ pipeline {
 
   }
   stages {
-    stage('error') {
+    stage('') {
       steps {
-        sh 'sh \'go version\''
+        sh 'go build main.go'
       }
     }
 
